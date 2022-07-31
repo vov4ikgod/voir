@@ -1,0 +1,106 @@
+.voir {
+    display: flex;
+}
+
+.voir-modal {
+    width: 250px;
+    height: 60px;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transform: translateX(-263px);
+    gap: 5px;
+}
+
+.voir-show {
+    transform: translateX(0px);
+}
+
+
+
+/* .voir-modal .voir-left-bottom, .voir-left-top {
+    transform: translateX(-263px);
+}
+
+.voir-modal .voir-right-bottom, .voir-left-top {
+    transform: translateX(-263px);
+} */
+
+
+
+.voir-right-top {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.voir-right-bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.voir-left-top {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.voir-left-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+
+/* background color */
+
+.background-green {
+    background-color: #8BFF9E;
+    border: 1.5px solid #28A745 !important;
+}
+
+.background-red {
+    background-color: #FC838F;
+    border: 1.5px solid #FF5363 !important;
+}
+
+.background-red {
+    background-color: #FC838F;
+    border: 1.5px solid #FF5363 !important;
+}
+
+.background-blue {
+    background-color: #83B3FC;
+    border: 1.5px solid #3854E8 !important;
+}
+
+.background-yellow {
+    background-color: #FDFF95;
+    border: 1.5px solid #E9ED30 !important;
+}
+
+/* ------------------------------ */
+
+/* text color */
+
+.text-while {
+    color: #fff;
+}
+
+.text-black {
+    color: #000;
+}
+
+/* -------------------------------*/
+
+.voir-close {
+    position: absolute;
+    top: 2px;
+    right: 4px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}

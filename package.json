@@ -1,0 +1,14 @@
+{
+  "name": "notification-voir",
+  "version": "1.0.3",
+  "description": "Hello, guys. I created this library in order to make it easier to create notifications on the site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vov4ikgod@gmail.com, telegram: vov4ikgod",
+  "license": "ISC",
+  "dependencies": {
+    "notification-voir": "^1.0.1"
+  }
+}
